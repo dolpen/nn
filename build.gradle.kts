@@ -17,7 +17,8 @@ dependencies {
     implementation("org.deeplearning4j:deeplearning4j-core:1.0.0-beta7")
     // for CPU
     implementation("org.nd4j:nd4j-native-platform:1.0.0-beta7")
-    // implementation("org.nd4j:nd4j-cuda-10.0:1.0.0-beta7")
+    // using GPU
+    //implementation("org.nd4j:nd4j-cuda-10.0-platform:1.0.0-beta7")
 }
 
 tasks.withType<KotlinCompile>(){
